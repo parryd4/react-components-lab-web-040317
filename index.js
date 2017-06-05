@@ -33,7 +33,7 @@ class InFrontOfYou extends React.Component {
   render(){
     return React.createElement('div', {}, [
       React.createElement('p', {}, "You shouldn't look too far."),
-      React.createElement('p', {}, "Sometimes, the solution is <strong>right in front of you.</strong>")
+      React.createElement('p', { id: 'fix this'}, 'Sometimes, the solution is <strong>right in front of you.</strong>') // Why does test have /&lt;/g for brackets?
     ])
   }
 }
